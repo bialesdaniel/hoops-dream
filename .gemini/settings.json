@@ -1,0 +1,18 @@
+{
+  "context": {
+    "fileName": [
+      "AGENTS.md"
+    ]
+  },
+  "tools": {
+    "exclude": [
+      "run_shell_command(gcloud)",
+      "run_shell_command(terraform apply)",
+      "run_shell_command(terraform destroy)",
+      "run_shell_command(make init-secrets)",
+      "run_shell_command(make rotate-espn-cookies)",
+      "run_shell_command(git push --no-verify)",
+      "run_shell_command(git push origin main)"
+    ]
+  }
+}

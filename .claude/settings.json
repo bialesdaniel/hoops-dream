@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "deny": [
+      "Bash(gcloud:*)",
+      "Bash(terraform apply:*)",
+      "Bash(terraform destroy:*)",
+      "Bash(make init-secrets:*)",
+      "Bash(make rotate-espn-cookies:*)",
+      "Bash(git push --no-verify:*)",
+      "Bash(git push origin main:*)",
+      "Read(./.env.local)",
+      "Read(~/.config/hoops-hub/**)"
+    ]
+  }
+}

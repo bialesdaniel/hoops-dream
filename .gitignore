@@ -1,0 +1,23 @@
+# Secrets and Local Data
+.env
+.env.local
+data/
+espn_spike_out/
+
+#Generated Code
+backend/gen
+frontend/src/gen/
+
+# Build and Tooling
+node_modules/
+frontend/dist/
+coverage/
+*.log
+.DS_Store
+__pycache__/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
